@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: left;
     max-width: 600px; /* Adjust max-width as needed */
     margin-top: 10px; /* Adjust margin-top as needed */
     padding: 20px;
