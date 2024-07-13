@@ -30,7 +30,7 @@ body {
 
 h1 {
     color: #33adff;
-    margin-top: 140px; /* Adjust margin-top as needed */
+    margin-top: 190px; /* Adjust margin-top as needed */
     z-index: 0; /* Ensure heading stays behind logo */
 }
 .input-group {
