@@ -10,7 +10,7 @@ body {
 
 .container {
     position: relative;
-    max-width: 600px; /* Adjust max-width as needed */
+    max-width: 900px; /* Adjust max-width as needed */
     margin-top: 50px; /* Adjust margin-top as needed */
     padding: 20px;
     border-radius: 8px;
