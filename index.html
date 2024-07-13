@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeLaval Liner Replacement time Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="delaval-logo1.WEBP" alt="DeLaval Logo" class="logo">
+        <h1>DeLaval Liner Replacement time Calculator</h1>
+       
+        <div class="input-group">
+            <label for="numCows">Number of Cows:</label>
+            <input type="number" id="numCows" name="numCows" min="1" required>
+        </div>
+        <div class="input-group">
+            <label for="numClusters">Number of Clusters / Buckets:</label>
+            <input type="number" id="numClusters" name="numClusters" min="1" required>
+        </div>
+        <button onclick="calculateLinerChange()">Calculate</button>
+        <p id="result"></p>
+ <img src="bottom-image.JPG" alt="Bottom Image" class="bottom-image">
+    </div>
+    <script src="calculator.js"></script>
+  </div>
+  
+</body>
+</html>
