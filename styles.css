@@ -24,7 +24,7 @@ body {
     top:  100px; /* Adjust position as needed */
     left: 10px;
     width: 100%; /* Adjust size as needed */
-    max-width: 600px;
+    max-width: 6000px;
     z-index: 1; /* Ensure logo stays above other content */
 }
 
