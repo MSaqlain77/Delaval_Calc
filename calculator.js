@@ -4,10 +4,10 @@ function toggleCalculator() {
     const  calculateLinerChange = document.getElementById('linerReplacementCalculator');
     const averageMilkingTimeCalculator = document.getElementById('averageMilkingTimeCalculator');
 
-    if (selectedCalculator === 'linerReplacement') {
+    if (selectedCalculator === 'liner Replacement Calculator') {
         linerReplacementCalculator.style.display = 'block';
         averageMilkingTimeCalculator.style.display = 'none';
-    } else if (selectedCalculator === 'averageMilkingTime') {
+    } else if (selectedCalculator === 'Average Milking Time Calculator') {
         linerReplacementCalculator.style.display = 'none';
         averageMilkingTimeCalculator.style.display = 'block';
     }
