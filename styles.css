@@ -76,21 +76,30 @@ button:hover {
     display: block; /* Ensures the image is displayed as a block element */
     margin: 0 auto; /* Centers the image horizontally */
 }
-  /* Add to styles.css */
+ /* Add to styles.css */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: relative;
+}
 
 .article-section {
-    width: 80%;
-    margin: 40px auto;
+    width: 35%;
+    margin-left: 20px;
     padding: 20px;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.article-section h2 {
-    color: #333;
-}
-
-.article-section p {
-    color: #555;
-    line-height: 1.6;
-}
