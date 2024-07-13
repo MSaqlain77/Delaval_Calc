@@ -8,16 +8,8 @@
 </head>
 <body>
     <div class="container">
-        <img src="delaval-logo1.webp" alt="DeLaval Logo" class="logo">
+        <img src="delaval-logo1.WEBP" alt="DeLaval Logo" class="logo">
         <h1>DeLaval Liner Replacement time Calculator</h1>
-         <!-- Dropdown for selecting the calculator -->
-        <div class="input-group">
-            <label for="calculatorSelect">Select Calculator:</label>
-            <select id="calculatorSelect" onchange="toggleCalculator()">
-                <option value="milking">Liner replacement calculator</option>
-                <option value="secondCalculator">Average Milking Time Calculator</option>
-            </select>
-        </div>
        
         <div class="input-group">
             <label for="numCows">Number of Cows:</label>
@@ -28,28 +20,11 @@
             <input type="number" id="numClusters" name="numClusters" min="1" required>
         </div>
         <button onclick="calculateLinerChange()">Calculate</button>
-         <p id="result"></p>
-        <img src="bottom-image.jpg" alt="Bottom Image" class="bottom-image">
+        <p id="result"></p>
+ <img src="bottom-image.JPG" alt="Bottom Image" class="bottom-image">
     </div>
-    
-     <!-- Second calculator -->
-        <div id="averageTimeCalculator" style="display: none;">
-            <div class="input-group">
-                <label for="numCowsTime">Number of Cows:</label>
-                <input type="number" id="numCowsTime" required>
-            </div>
-            <div class="input-group">
-                <label for="numBuckets">Number of Clusters/Buckets:</label>
-                <input type="number" id="numBuckets" required>
-            </div>
-            <div class="input-group">
-                <label for="numHandMilkers">Number of Hand Milkers (optional):</label>
-                <input type="number" id="numHandMilkers">
-            </div>
-            <button onclick="calculateAverageTime()">Calculate</button>
-            <div id="resultAverageTime">Result Displayed Here</div>
-            
     <script src="calculator.js"></script>
-    </div>
+  </div>
+  
 </body>
 </html>
