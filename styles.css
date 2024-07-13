@@ -23,7 +23,7 @@ body {
     position: absolute;
     top:  100px; /* Adjust position as needed */
     left: 10px;
-    width: 100%; /* Adjust size as needed */
+    width: 10%; /* Adjust size as needed */
     max-width: 200px;
     z-index: 1; /* Ensure logo stays above other content */
 }
