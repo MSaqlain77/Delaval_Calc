@@ -18,27 +18,16 @@ body {
     text-align: center;
     background-color: #093f80;
 }
-.logo-container {
-    position: relative;
-    margin-top: 20px; /* Adjust margin-top as needed */
-    text-align: center; /* Center align the image */
-}
 
-.logo-image {
-    width: 100%; /* Ensure the image spans the entire width */
-    max-width: 600px; /* Limit the maximum width of the image */
-    display: block; /* Ensures the image is displayed as a block element */
-    margin: 0 auto; /* Centers the image horizontally */
-}
-/*.logo {
+.logo {
     position: absolute;
-    top:  15px; /* Adjust position as needed */
+    top:  -50px; /* Adjust position as needed */
     left: 10px;
-    width: 600px; /* Adjust size as needed */
-    max-width: 600px;
+    width: 100%; /* Adjust size as needed */
+    max-width: 200px;
     z-index: 1; /* Ensure logo stays above other content */
 }
-*/
+
 h1 {
     color: #33adff;
     margin-top: 140px; /* Adjust margin-top as needed */
