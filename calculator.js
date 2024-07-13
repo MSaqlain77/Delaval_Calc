@@ -2,13 +2,13 @@
 function toggleCalculator() {
     const selectedCalculator = document.getElementById('calculatorSelect').value;
     const  calculateLinerChange = document.getElementById('liner Replacement Calculator');
-    const averageMilkingTimeCalculator = document.getElementById('Average Milking Time Calculator');
+    const averageMilkingTimeCalculator = document.getElementById('average Milking Time Calculator');
 
     if (selectedCalculator === 'liner Replacement Calculator') {
-        linerReplacementCalculator.style.display = 'block';
+        calculateLinerChange.style.display = 'block';
         averageMilkingTimeCalculator.style.display = 'none';
-    } else if (selectedCalculator === 'Average Milking Time Calculator') {
-        linerReplacementCalculator.style.display = 'none';
+    } else if (selectedCalculator === 'average Milking Time Calculator') {
+        calculateLinerChange.style.display = 'none';
         averageMilkingTimeCalculator.style.display = 'block';
     }
 }
