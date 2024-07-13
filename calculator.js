@@ -1,8 +1,8 @@
 // Function to toggle between calculators
 function toggleCalculator() {
     const selectedCalculator = document.getElementById('calculatorSelect').value;
-    const  calculateLinerChange = document.getElementById('linerReplacementCalculator');
-    const averageMilkingTimeCalculator = document.getElementById('averageMilkingTimeCalculator');
+    const  calculateLinerChange = document.getElementById('liner Replacement Calculator');
+    const averageMilkingTimeCalculator = document.getElementById('Average Milking Time Calculator');
 
     if (selectedCalculator === 'liner Replacement Calculator') {
         linerReplacementCalculator.style.display = 'block';
@@ -22,7 +22,7 @@ function calculateLinerChange() {
     resultElement.innerHTML = `Each cluster milks ${cowsPerCluster.toFixed(2)} cows. You should change the liner every ${usesPerCluster.toFixed(2)} uses or 6 months, whichever comes first.`;
 }
 // Function to calculate average milking time for the average milking time calculator
-function calculateAverageMilkingTime() {
+function averageMilkingTimeCalculator() {
     const numCows = document.getElementById('numCowsTime').value;
     const numBuckets = document.getElementById('numBuckets').value;
     const numHandMilkers = document.getElementById('numHandMilkers').value || 0;
