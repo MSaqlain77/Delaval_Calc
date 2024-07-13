@@ -21,7 +21,7 @@ body {
 
 .logo {
     position: absolute;
-    top:  -50px; /* Adjust position as needed */
+    top:  100px; /* Adjust position as needed */
     left: 10px;
     width: 100%; /* Adjust size as needed */
     max-width: 200px;
