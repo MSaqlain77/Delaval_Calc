@@ -21,8 +21,9 @@ body {
 
 .logo {
     position: absolute;
-    top:  30px; /* Adjust position as needed */
+    top:  10px; /* Adjust position as needed */
     left: 10px;
+    right:10px;
     width: 600px; /* Adjust size as needed */
     z-index: 1; /* Ensure logo stays above other content */
 }
