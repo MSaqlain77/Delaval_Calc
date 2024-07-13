@@ -4,7 +4,7 @@
 function toggleCalculator() {
     const selectedCalculator = document.getElementById('calculatorSelect').value;
     const milkingCalculator = document.getElementById('milkingCalculator');
-    const averageTimeCalculator = document.getElementById('averageTimeCalculator');
+    const LinerCalculator = document.getElementById('averageTimeCalculator');
 
     if (selectedCalculator === 'milking') {
         milkingCalculator.style.display = 'block';
