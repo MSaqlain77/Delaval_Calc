@@ -11,7 +11,7 @@ body {
 .container {
     position: relative;
     max-width: 600px; /* Adjust max-width as needed */
-    margin-top: 50px; /* Adjust margin-top as needed */
+    margin-top: 10px; /* Adjust margin-top as needed */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -24,7 +24,7 @@ body {
     top:  100px; /* Adjust position as needed */
     left: 10px;
     width: 100%; /* Adjust size as needed */
-    max-width: 200px;
+    max-width: 400px;
     z-index: 1; /* Ensure logo stays above other content */
 }
 
