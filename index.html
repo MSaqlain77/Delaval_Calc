@@ -10,6 +10,14 @@
     <div class="container">
         <img src="delaval-logo1.webp" alt="DeLaval Logo" class="logo">
         <h1>DeLaval Liner Replacement time Calculator</h1>
+         <!-- Dropdown for selecting the calculator -->
+        <div class="input-group">
+            <label for="calculatorSelect">Select Calculator:</label>
+            <select id="calculatorSelect" onchange="toggleCalculator()">
+                <option value="milking">Liner Calculator</option>
+                <option value="secondCalculator">Milking Time Calculator</option>
+            </select>
+        </div>
        
         <div class="input-group">
             <label for="numCows">Number of Cows:</label>
