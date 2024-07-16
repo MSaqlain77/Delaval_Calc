@@ -121,6 +121,7 @@ main {
     max-width: 620px; /* Limit the maximum width of the image */
     display: block; /* Ensures the image is displayed as a block element */
     margin: 0 auto; /* Centers the image horizontally */
+	height: auto;
 }
 
 h5 {
@@ -169,6 +170,7 @@ button:hover {
     max-width: 620px; /* Limit the maximum width of the image */
     display: block; /* Ensures the image is displayed as a block element */
     margin: 0 auto; /* Centers the image horizontally */
+	height: auto;
 }
 .video {
     margin-bottom: 40px;
