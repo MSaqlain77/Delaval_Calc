@@ -195,6 +195,9 @@ button:hover {
 	margin-right: -300px;
 	margin-left: 50px;
 }
+media (max-width: 600px) {
+    .header-title {
+        font-size: 1.5em;
 footer {
   background-color: #08407f;
   color: #fff;
