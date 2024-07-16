@@ -102,14 +102,14 @@ main {
     line-height: 1.6;
 }
 .container {
-    position:relative;
     max-width: 600px; /* Adjust max-width as needed */
-    margin-top: 10px; /* Adjust margin-top as needed */
+    margin-top: 30px; /* Adjust margin-top as needed */
+	 margin-left: 200px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: #093f80;
+    background-color: #08407f;
 }
 .subject-photo3-container {
     position: relative;
@@ -125,8 +125,8 @@ main {
 
 h5 {
     color: #33adff;
-    margin-top: 190px; /* Adjust margin-top as needed */
-    z-index: 0; /* Ensure heading stays behind logo */
+    margin-top: -100px; /* Adjust margin-top as needed */
+    /* Ensure heading stays behind logo */
 }
 .input-group {
     margin-bottom: 20px; /* Add space between input groups */
@@ -165,8 +165,67 @@ button:hover {
 }
 
 .bottom-image {
-    width: 100%; /* Ensure the image spans the entire width */
+    width: 90%; /* Ensure the image spans the entire width */
     max-width: 620px; /* Limit the maximum width of the image */
     display: block; /* Ensures the image is displayed as a block element */
     margin: 0 auto; /* Centers the image horizontally */
+}
+.video {
+    margin-bottom: 40px;
+}
+
+.video video {
+    width: 40%;
+    max-width: 600px;
+    height: auto;
+}
+.subject-title p3{
+    color:black ;
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust line height for readability */
+    max-width: 450px;
+    margin-top: 10px;
+	margin-left: 100px;
+ font-weight: bold;
+}
+.video1 {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+	margin-right: -300px;
+	margin-left: 50px;
+}
+footer {
+  background-color: #08407f;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content a {
+  color: #66b2ff;
+  text-decoration: none;
+}
+.logo1 {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
 }
